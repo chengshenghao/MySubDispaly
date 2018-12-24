@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/showMessage"
+        android:layout_width="150dip"
+        android:layout_height="100dip"
+        android:onClick="showMessage"
+        android:text="显示副屏"
+        android:textSize="24dip" />
+
+</LinearLayout>
